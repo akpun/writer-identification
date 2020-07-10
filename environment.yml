@@ -1,12 +1,15 @@
-name: TFG
+name: WI
 channels:
   - defaults
 dependencies:
+  - python=3.6
   - torchvision
   - pytorch
   - cudatoolkit=10.2
   - pip:
-    - pytorch-lightning==0.7.6
+    - pytorch-lightning=0.7.6
     - wandb
     - sklearn
+    - opencv-python
+    - tqdm
 prefix: /home/punjabi/TFG/envs
