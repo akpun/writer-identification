@@ -1,0 +1,12 @@
+name: TFG
+channels:
+  - defaults
+dependencies:
+  - torchvision
+  - pytorch
+  - cudatoolkit=10.2
+  - pip:
+    - pytorch-lightning==0.7.6
+    - wandb
+    - sklearn
+prefix: /home/punjabi/TFG/envs
